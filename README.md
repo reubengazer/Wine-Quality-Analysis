@@ -1,7 +1,14 @@
 # WineQualityAnalysis
-Analysis of wine sample qualities from the UCI Machine Learning Repository.
 
-Data Set Information:
+Exploratory data analysis, 2 classification models, 1 regression model on data concerning wine quality.
+
+### Data Questions: ###  
+Can we predict the quality rating of a wine sample?
+Can we predict whether a wine is red or white given its predictors (ie. chemistry)? 
+What are the chemical compositions that define red and white wine (inference from above)?
+What factors make a great wine, and what factors make a terrible wine?
+
+### Data Set Information:
 
 The dataset was downloaded from the UCI Machine Learning Repository.
 
@@ -11,11 +18,11 @@ These datasets can be viewed as classification or regression tasks. The classes 
 
 Two datasets were combined and few values were randomly removed.
 
-Attribute Information:
+### Attribute Information:
 
 For more information, read [Cortez et al., 2009]. Input variables (based on physicochemical tests): 1 - fixed acidity 2 - volatile acidity 3 - citric acid 4 - residual sugar 5 - chlorides 6 - free sulfur dioxide 7 - total sulfur dioxide 8 - density 9 - pH 10 - sulphates 11 - alcohol Output variable (based on sensory data): 12 - quality (score between 0 and 10)
 
-Acknowledgements:
+### Acknowledgements:
 
 P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
 
