@@ -1,9 +1,9 @@
 # Wine Quality Analysis
 
-### INTRODUCTION 
+### Introduction 
 Three wine-tasting experts (herein refered to as "tasters") tasted ~ 6500 samples of Portuguese "Vinho Verde" wine,  ~30% and ~ 70% of which were red and white variants respectively. Each taster rated the QUALITY of samples on scale of 0 - 10 (0 = bad, 10 = great) and the officially recorded quality of a sample was the median of the 3 ratings. Each wine sample has data detailing its chemical and physical properties, listed below. Units for most quantities are in MASS DENSITY, with grams (g) or milligrams (mg) per cubic decimeter (dm).
 
-### VARIABLE DESCRIPTION
+### Variable Description
 - QUALITY (integer in [1 - 10])
 - FIXED ACIDITY (numeric, g/dm^3)
 - VOLATILE ACIDITY (numeric, g/dm^3)
