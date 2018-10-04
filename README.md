@@ -5,23 +5,23 @@ Three wine-tasting experts (herein refered to as "tasters") tasted ~ 6500 sample
 
 ### VARIABLE DESCRIPTION
 - QUALITY (integer in [1 - 10])
-- FIXED ACIDITY (numeric, g/dm$$^{3}$$)
-- VOLATILE ACIDITY (numeric, g/dm$^3$)
-- CITRIC ACID (numeric, g/dm$^3$)
-- RESIDUAL SUGAR (numeric, g/dm$^3$)
-- CHLORIDES (numeric, g/dm$^3$)
-- FREE SULFUR DIOXIDE (numeric, mg/dm$^3$)
-- TOTAL SULFUR DIOXIDE (numeric, mg/dm$^3$)
-- DENSITY (numeric, g/dm$^3$)
+- FIXED ACIDITY (numeric, g/dm^3)
+- VOLATILE ACIDITY (numeric, g/dm^3)
+- CITRIC ACID (numeric, g/dm^3)
+- RESIDUAL SUGAR (numeric, g/dm^3)
+- CHLORIDES (numeric, g/dm^3)
+- FREE SULFUR DIOXIDE (numeric, mg/dm^3)
+- TOTAL SULFUR DIOXIDE (numeric, mg/dm^3)
+- DENSITY (numeric, g/dm^3)
 - pH (numeric, <= 14)
-- SULPHATES (numeric, g/dm$^3$)
+- SULPHATES (numeric, g/dm^3)
 - ALCOHOL (numeric, [0.0 - 1.0], % volume)
 
 ### Wine Quality: What Makes a Great Wine Great, and a Bad Wine Bad? 
 
 Before we start with any analysis, it is certainly worth asking an important question related to the "quality" of a wine: 
 
-<h3><center>Is there an objective set of chemical and physical properties that makes a wine good or bad? </center></h3>
+<center>Is there an objective set of chemical and physical properties that makes a wine good or bad? </center>
     
 Possibly, but our dataset only represents one type of wine from one region in Portugal - our conclusions about wine quality will only describe _these_ wines, and we can describe what judges are "looking for" in a good or bad Vinho Verde. The samples are also comprised of both reds and whites (in the ~ 30%/70% ratio respectively), which brings us to a broader question of quality: is there a global set of traits that determine "goodness" or "badness" of a sample _independent of the wine colour_? Congruently, are there traits that make reds (whites) good, but not whites (reds) and vice versa? Let's first examine the rating of sample quality more closely before we use the data to address these questions.
 
