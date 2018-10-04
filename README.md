@@ -5,7 +5,7 @@ Three wine-tasting experts (herein refered to as "tasters") tasted ~ 6500 sample
 
 ### VARIABLE DESCRIPTION
 - QUALITY (integer in [1 - 10])
-- FIXED ACIDITY (numeric, g/dm$^{3}$)
+- FIXED ACIDITY (numeric, g/dm$$^{3}$$)
 - VOLATILE ACIDITY (numeric, g/dm$^3$)
 - CITRIC ACID (numeric, g/dm$^3$)
 - RESIDUAL SUGAR (numeric, g/dm$^3$)
